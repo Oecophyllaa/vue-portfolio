@@ -10,12 +10,13 @@ export default {
       <div class="row align-items-center">
         <div class="col-md-6">
           <p class="text-dark mb-0 fw-bold">
-            &copy; 2025 Rangga Raditya Nugroho. All rights reserved.
+            <i class="fas fa-flag-checkered me-2"></i>&copy; 2025 Rangga Raditya Nugroho. All rights
+            reserved.
           </p>
         </div>
         <div class="col-md-6 text-md-end">
           <p class="text-dark mb-0">
-            Made with <i class="fas fa-heart text-danger"></i> using Vue.js & Bootstrap
+            Made with <i class="fas fa-heart text-danger pulse-icon"></i> using Vue.js & Bootstrap
           </p>
         </div>
       </div>

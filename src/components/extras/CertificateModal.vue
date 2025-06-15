@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'CertifitaceModal',
+  name: 'CertificateModal',
 }
 </script>
 

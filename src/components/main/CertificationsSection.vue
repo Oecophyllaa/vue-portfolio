@@ -11,7 +11,7 @@ export default {
         issuer: 'Laravel',
         year: '2023',
         icon: 'fab fa-laravel',
-        image: 'https://placehold.co/600x400?text=Laravel+Certificate',
+        image: '/placeholder.svg?height=400&width=600&text=Laravel+Certificate',
       },
       {
         id: 2,
@@ -19,7 +19,7 @@ export default {
         issuer: 'Vue School',
         year: '2023',
         icon: 'fab fa-vuejs',
-        image: 'https://placehold.co/600x400?text=Vue.js+Certificate',
+        image: '/placeholder.svg?height=400&width=600&text=Vue.js+Certificate',
       },
       {
         id: 3,
@@ -27,7 +27,7 @@ export default {
         issuer: 'Udemy',
         year: '2022',
         icon: 'fas fa-code',
-        image: 'https://placehold.co/600x400?text=Web+Dev+Certificate',
+        image: '/placeholder.svg?height=400&width=600&text=Web+Dev+Certificate',
       },
       {
         id: 4,
@@ -35,7 +35,7 @@ export default {
         issuer: 'Coursera',
         year: '2022',
         icon: 'fas fa-database',
-        image: 'https://placehold.co/600x400?text=Database+Certificate',
+        image: '/placeholder.svg?height=400&width=600&text=Database+Certificate',
       },
       {
         id: 5,
@@ -43,7 +43,7 @@ export default {
         issuer: 'GitHub',
         year: '2021',
         icon: 'fab fa-github',
-        image: 'https://placehold.co/600x400?text=Git+Certificate',
+        image: '/placeholder.svg?height=400&width=600&text=Git+Certificate',
       },
     ]
 
@@ -76,7 +76,9 @@ export default {
     <div class="container">
       <div class="row">
         <div class="col-12 text-center mb-5">
-          <h2 class="section-title text-white">Certifications</h2>
+          <h2 class="section-title text-white">
+            <i class="fas fa-medal me-3 text-amg-teal"></i>Certifications
+          </h2>
         </div>
       </div>
       <div class="row">
@@ -84,16 +86,18 @@ export default {
           <div class="row g-4">
             <div class="col-md-6 col-lg-4" v-for="cert in certifications" :key="cert.id">
               <div
-                class="certificate-card bg-dark-card p-4 rounded-4 h-100 certificate-hover"
+                class="certificate-card bg-dark-card p-4 rounded-4 h-100 certificate-hover racing-certificate"
                 @click="openCertificate(cert)"
               >
                 <div class="certificate-icon text-center mb-3">
-                  <i :class="cert.icon + ' fa-3x text-amg-teal'"></i>
+                  <div class="icon-wrapper">
+                    <i :class="cert.icon + ' fa-3x text-amg-teal certificate-icon'"></i>
+                  </div>
                 </div>
                 <h5 class="text-white text-center mb-3">{{ cert.title }}</h5>
                 <p class="text-light-gray text-center mb-3">{{ cert.issuer }}</p>
                 <div class="text-center">
-                  <span class="badge bg-amg-teal text-dark">{{ cert.year }}</span>
+                  <span class="badge bg-amg-teal text-dark racing-year">{{ cert.year }}</span>
                 </div>
                 <div class="certificate-overlay">
                   <i class="fas fa-eye fa-2x text-white"></i>

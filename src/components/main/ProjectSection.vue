@@ -100,54 +100,66 @@ export default {
     <div class="container">
       <div class="row">
         <div class="col-12 text-center mb-5">
-          <h2 class="section-title text-white">Featured Projects</h2>
+          <h2 class="section-title text-white">
+            <i class="fas fa-rocket me-3 text-amg-teal"></i>Featured Projects
+          </h2>
         </div>
       </div>
       <div class="row">
         <div class="col-12 mb-4">
           <div class="project-filters text-center">
             <button
-              class="btn btn-outline-light me-2 mb-2"
+              class="btn btn-outline-light me-2 mb-2 racing-filter"
               :class="{ 'btn-amg-teal text-dark': activeFilter === 'all' }"
               @click="filterProjects('all')"
             >
-              All
+              <i class="fas fa-th me-1"></i>All
             </button>
             <button
-              class="btn btn-outline-light me-2 mb-2"
+              class="btn btn-outline-light me-2 mb-2 racing-filter"
               :class="{ 'btn-amg-teal text-dark': activeFilter === 'web' }"
               @click="filterProjects('web')"
             >
-              Web App
+              <i class="fas fa-globe me-1"></i>Web App
             </button>
             <button
-              class="btn btn-outline-light me-2 mb-2"
+              class="btn btn-outline-light me-2 mb-2 racing-filter"
               :class="{ 'btn-amg-teal text-dark': activeFilter === 'mobile' }"
               @click="filterProjects('mobile')"
             >
-              Mobile
+              <i class="fas fa-mobile-alt me-1"></i>Mobile
             </button>
             <button
-              class="btn btn-outline-light me-2 mb-2"
+              class="btn btn-outline-light me-2 mb-2 racing-filter"
               :class="{ 'btn-amg-teal text-dark': activeFilter === 'api' }"
               @click="filterProjects('api')"
             >
-              API
+              <i class="fas fa-cogs me-1"></i>API
             </button>
           </div>
         </div>
       </div>
       <div class="row g-4">
         <div class="col-lg-4 col-md-6" v-for="project in filteredProjects" :key="project.id">
-          <div class="project-card bg-dark-card rounded-4 overflow-hidden h-100 project-hover">
+          <div
+            class="project-card bg-dark-card rounded-4 overflow-hidden h-100 project-hover racing-project"
+          >
             <div class="project-image">
               <img :src="project.image" :alt="project.title" class="project-img" />
               <div class="project-overlay">
                 <div class="project-actions">
-                  <a :href="project.demo" class="btn btn-amg-teal me-2" target="_blank">
+                  <a
+                    :href="project.demo"
+                    class="btn btn-amg-teal me-2 racing-action"
+                    target="_blank"
+                  >
                     <i class="fas fa-eye"></i>
                   </a>
-                  <a :href="project.github" class="btn btn-outline-light" target="_blank">
+                  <a
+                    :href="project.github"
+                    class="btn btn-outline-light racing-action"
+                    target="_blank"
+                  >
                     <i class="fab fa-github"></i>
                   </a>
                 </div>
@@ -160,13 +172,15 @@ export default {
                 <span
                   v-for="tech in project.technologies"
                   :key="tech"
-                  class="badge bg-dark-secondary text-light me-2 mb-2"
+                  class="badge bg-dark-secondary text-light me-2 mb-2 tech-badge"
                 >
                   {{ tech }}
                 </span>
               </div>
               <div class="project-meta d-flex justify-content-between align-items-center">
-                <span class="badge bg-amg-teal text-dark">{{ project.category }}</span>
+                <span class="badge bg-amg-teal text-dark racing-category">{{
+                  project.category
+                }}</span>
                 <small class="text-light-gray">{{ project.year }}</small>
               </div>
             </div>

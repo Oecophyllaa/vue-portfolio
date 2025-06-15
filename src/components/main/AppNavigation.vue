@@ -44,7 +44,9 @@ export default {
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark-teal fixed-top">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#home"> <i class="fas fa-code me-2"></i>Oecophylla </a>
+      <a class="navbar-brand fw-bold" href="#home">
+        <i class="fas fa-flag-checkered me-2 racing-icon"></i>Oecophylla
+      </a>
       <button
         class="navbar-toggler"
         type="button"

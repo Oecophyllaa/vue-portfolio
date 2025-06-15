@@ -8,7 +8,6 @@ import HeroSection from '@/components/main/HeroSection.vue'
 import ProjectSection from '@/components/main/ProjectSection.vue'
 import SkillsSection from '@/components/main/SkillsSection.vue'
 import AppFooter from '@/components/main/AppFooter.vue'
-import ResumeModal from '@/components/extras/ResumeModal.vue'
 import CertificateModal from '@/components/extras/CertificateModal.vue'
 import FloatingButtons from '@/components/extras/FloatingButtons.vue'
 
@@ -27,7 +26,6 @@ export default {
     AppFooter,
 
     /* Extras */
-    ResumeModal,
     CertificateModal,
     FloatingButtons,
   },
@@ -48,8 +46,14 @@ export default {
     <AppFooter />
 
     <!-- Extras -->
-    <ResumeModal />
     <CertificateModal />
     <FloatingButtons />
+
+    <!-- F1 Racing Elements -->
+    <div class="racing-elements">
+      <div class="racing-stripe racing-stripe-1"></div>
+      <div class="racing-stripe racing-stripe-2"></div>
+      <div class="racing-stripe racing-stripe-3"></div>
+    </div>
   </div>
 </template>

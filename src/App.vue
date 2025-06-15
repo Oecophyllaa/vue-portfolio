@@ -1,15 +1,20 @@
+<script>
+import { RouterView } from 'vue-router'
+
+export default {
+  name: 'App',
+  components: {
+    RouterView,
+  },
+}
+</script>
+
 <!-- src/App.vue -->
 <template>
   <div id="app">
-    <router-view />
+    <RouterView />
   </div>
 </template>
-
-<script>
-export default {
-  name: 'App',
-}
-</script>
 
 <style>
 /* Global styles akan ada di style.css */

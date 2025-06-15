@@ -30,12 +30,16 @@ export default {
 <template>
   <div class="floating-buttons">
     <!-- Back to Top Button -->
-    <button class="floating-btn back-to-top" @click="scrollToTop" v-show="showBackToTop">
+    <button
+      class="floating-btn back-to-top racing-float"
+      @click="scrollToTop"
+      v-show="showBackToTop"
+    >
       <i class="fas fa-arrow-up"></i>
     </button>
 
     <!-- Theme Toggle Button -->
-    <button class="floating-btn theme-toggle" @click="toggleTheme">
+    <button class="floating-btn theme-toggle racing-float" @click="toggleTheme">
       <i class="fas fa-moon" v-if="!isDarkMode"></i>
       <i class="fas fa-sun" v-else></i>
     </button>
