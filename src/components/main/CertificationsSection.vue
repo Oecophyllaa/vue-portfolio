@@ -24,7 +24,7 @@ export default {
         skills: ['Laravel', 'Filament', 'PHP', 'REST API', 'Authentication', 'UI/UX'],
         credentialId: 'gHUIJvz3gx',
         validUntil: 'Lifetime',
-        image: '/src/assets/certificates/web-booking-kos.png',
+        image: '/certificates/web-booking-kos.png',
       },
       {
         id: 2,
@@ -38,7 +38,7 @@ export default {
         skills: ['Laravel', 'Filament', 'MySQL', 'CRUD', 'Authentication', 'Content Management'],
         credentialId: 'VFctXHQwXD',
         validUntil: 'Lifetime',
-        image: '/src/assets/certificates/web-portal-berita.png',
+        image: '/certificates/web-portal-berita.png',
       },
       {
         id: 3,
@@ -59,7 +59,7 @@ export default {
         ],
         credentialId: 'mqfJ4EK2Cx',
         validUntil: 'Lifetime',
-        image: '/src/assets/certificates/website-rent-office.png',
+        image: '/certificates/website-rent-office.png',
       },
       {
         id: 4,
@@ -82,7 +82,7 @@ export default {
         ],
         credentialId: 'OgVtiSK84T',
         validUntil: 'Lifetime',
-        image: '/src/assets/certificates/website-hris.png',
+        image: '/certificates/website-hris.png',
       },
       {
         id: 5,
@@ -104,7 +104,7 @@ export default {
         ],
         credentialId: 'ly9kFs4r5v',
         validUntil: 'Lifetime',
-        image: '/src/assets/certificates/web-sewa-barang.png',
+        image: '/certificates/web-sewa-barang.png',
       },
       {
         id: 6,
@@ -118,7 +118,7 @@ export default {
         credentialId: '-',
         validUntil: 'Lifetime',
         skills: ['Public Speaking', 'Web Engagement', 'PWA', 'User Experience'],
-        image: '/src/assets/certificates/guest-speaker-campaign.png',
+        image: '/certificates/guest-speaker-campaign.png',
       },
       {
         id: 7,
@@ -132,7 +132,7 @@ export default {
         skills: ['HTML', 'CSS', 'JavaScript', 'Backend Basics', 'Deployment'],
         credentialId: '-',
         validUntil: 'Feb 2027',
-        image: '/src/assets/certificates/junior-web-developer-bnsp.png',
+        image: '/certificates/junior-web-developer-bnsp.png',
       },
       {
         id: 8,
@@ -153,7 +153,7 @@ export default {
         ],
         credentialId: 'DvfQnhazph',
         validUntil: 'Lifetime',
-        image: '/src/assets/certificates/website-freelancer.png',
+        image: '/certificates/website-freelancer.png',
       },
       {
         id: 9,
@@ -174,7 +174,7 @@ export default {
         ],
         credentialId: 'fImyVez1JF',
         validUntil: 'Lifetime',
-        image: '/src/assets/certificates/forum-web-app.png',
+        image: '/certificates/forum-web-app.png',
       },
       {
         id: 10,
@@ -196,7 +196,7 @@ export default {
         ],
         credentialId: '8V6u98y8rG',
         validUntil: 'Lifetime',
-        image: '/src/assets/certificates/web-sewa-mobil.png',
+        image: '/certificates/web-sewa-mobil.png',
       },
       {
         id: 11,
@@ -218,7 +218,7 @@ export default {
         ],
         credentialId: 'IHKQPUtAza',
         validUntil: 'Lifetime',
-        image: '/src/assets/certificates/full-stack-web-designer.png',
+        image: '/certificates/full-stack-web-designer.png',
       },
       {
         id: 12,
@@ -240,7 +240,7 @@ export default {
         ],
         credentialId: 'zz7fz7gPMa',
         validUntil: 'Lifetime',
-        image: '/src/assets/certificates/full-stack-laravel-vue-js.png',
+        image: '/certificates/full-stack-laravel-vue-js.png',
       },
     ]
 

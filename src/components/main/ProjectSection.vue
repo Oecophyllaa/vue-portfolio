@@ -12,7 +12,7 @@ export default {
         title: 'Boarding House Rent',
         description:
           'A web application for managing boarding house rentals, featuring tenant registration, online payments, room availability tracking, and automated billing.',
-        image: '/src/assets/projects/web-ngekos.png',
+        image: '/projects/web-ngekos.png',
         category: 'web',
         technologies: ['Laravel', 'Filament', 'MySQL', 'Midtrans'],
         demo: '#',
@@ -24,7 +24,7 @@ export default {
         title: 'Office / Co-working Space Rent',
         description:
           'A web application for managing office and co-working space rentals, featuring booking management, tenant coordination, payment processing, and availability tracking.',
-        image: '/src/assets/projects/web-firstoffice.png',
+        image: '/projects/web-firstoffice.png',
         category: 'web',
         technologies: ['Laravel', 'React', 'TypeScript', 'REST API'],
         demo: '#',
@@ -36,7 +36,7 @@ export default {
         title: 'News Portal Web',
         description:
           'A modern news portal web application that enables users to read, search, and manage news articles, featuring an intuitive interface, category filtering, and admin management tools.',
-        image: '/src/assets/projects/web-maga.png',
+        image: '/projects/web-maga.png',
         category: 'web',
         technologies: ['Laravel', 'Filament', 'MySQL', 'CMS'],
         demo: '#',
