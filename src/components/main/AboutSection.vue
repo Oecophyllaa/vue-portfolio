@@ -29,41 +29,65 @@ export default {
         <div class="col-lg-6">
           <div class="about-content slide-in-right">
             <h3 class="text-amg-teal mb-4">
-              <i class="fas fa-code me-2"></i>Passionate Developer & Lifelong Learner
+              <i class="fas fa-code me-2"></i>Passionate Developer & Tech Innovator
             </h3>
             <p class="text-light-gray mb-4">
-              I'm a dedicated fullstack web developer currently studying at Politeknik Negeri
-              Jember. My journey in programming started with curiosity and has evolved into a
-              passion for creating innovative digital solutions.
+              I'm a dedicated full-stack web developer with expertise in modern web technologies. My
+              journey in programming started with curiosity and has evolved into a passion for
+              creating scalable, efficient, and user-centric digital solutions.
             </p>
             <p class="text-light-gray mb-4">
-              With expertise in modern web technologies like Laravel, Vue.js, and React, I enjoy
-              building applications that solve real-world problems. I believe in writing clean,
-              maintainable code and staying updated with the latest industry trends.
+              Specializing in Laravel backend development and Vue.js frontend frameworks, I focus on
+              building robust applications with clean architecture, optimal performance, and
+              maintainable code. I stay current with industry best practices and emerging
+              technologies.
             </p>
-            <div class="row mt-4">
-              <div class="col-6 mb-3">
-                <div class="about-item racing-info">
-                  <i class="fas fa-birthday-cake text-amg-teal me-2"></i>
-                  <span class="text-light-gray">Age: 21</span>
+
+            <!-- Technical Expertise -->
+            <div class="tech-expertise mb-4">
+              <h5 class="text-amg-teal mb-3"><i class="fas fa-cogs me-2"></i>Core Expertise</h5>
+              <div class="row">
+                <div class="col-sm-6 mb-2">
+                  <div class="expertise-item">
+                    <i class="fab fa-laravel text-amg-teal me-2"></i>
+                    <span class="text-light-gray">Laravel Development</span>
+                  </div>
+                </div>
+                <div class="col-sm-6 mb-2">
+                  <div class="expertise-item">
+                    <i class="fab fa-vuejs text-amg-teal me-2"></i>
+                    <span class="text-light-gray">Vue.js Applications</span>
+                  </div>
+                </div>
+                <div class="col-sm-6 mb-2">
+                  <div class="expertise-item">
+                    <i class="fas fa-database text-amg-teal me-2"></i>
+                    <span class="text-light-gray">Database Design</span>
+                  </div>
+                </div>
+                <div class="col-sm-6 mb-2">
+                  <div class="expertise-item">
+                    <i class="fas fa-cloud text-amg-teal me-2"></i>
+                    <span class="text-light-gray">Cloud Deployment</span>
+                  </div>
                 </div>
               </div>
-              <div class="col-6 mb-3">
-                <div class="about-item racing-info">
-                  <i class="fas fa-envelope text-amg-teal me-2"></i>
-                  <span class="text-light-gray">oecophylla@example.com</span>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+              <div class="row">
+                <div class="col-sm-6 mb-3">
+                  <div class="about-item racing-info">
+                    <i class="fas fa-envelope text-amg-teal me-2"></i>
+                    <span class="text-light-gray">oecophylla@example.com</span>
+                  </div>
                 </div>
-              </div>
-              <div class="col-6 mb-3">
-                <div class="about-item racing-info">
-                  <i class="fas fa-phone text-amg-teal me-2"></i>
-                  <span class="text-light-gray">+62 xxx-xxxx-xxxx</span>
-                </div>
-              </div>
-              <div class="col-6 mb-3">
-                <div class="about-item racing-info">
-                  <i class="fas fa-globe text-amg-teal me-2"></i>
-                  <span class="text-light-gray">oecophylla.my.id</span>
+                <div class="col-sm-6 mb-3">
+                  <div class="about-item racing-info">
+                    <i class="fas fa-globe text-amg-teal me-2"></i>
+                    <span class="text-light-gray">oecophylla.my.id</span>
+                  </div>
                 </div>
               </div>
             </div>

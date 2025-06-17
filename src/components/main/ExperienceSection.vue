@@ -80,7 +80,7 @@ export default {
       <div class="row">
         <div class="col-12 text-center mb-5">
           <h2 class="section-title text-white">
-            <i class="fas fa-road me-3 text-amg-teal"></i>Experience Journey
+            <i class="fas fa-road me-3 text-amg-teal"></i>Professional Journey
           </h2>
         </div>
       </div>
@@ -96,8 +96,10 @@ export default {
                 <i class="fas fa-flag text-dark"></i>
               </div>
               <div class="timeline-content bg-dark-card p-4 rounded-4 racing-card">
-                <div class="d-flex justify-content-between align-items-start mb-3">
-                  <div>
+                <div
+                  class="d-flex flex-column flex-md-row justify-content-between align-items-start mb-3"
+                >
+                  <div class="mb-2 mb-md-0">
                     <h4 class="text-white mb-1">{{ exp.position }}</h4>
                     <h5 class="text-amg-teal mb-2">
                       <i class="fas fa-building me-2"></i>{{ exp.company }}
@@ -106,6 +108,19 @@ export default {
                   <span class="badge bg-amg-teal text-dark racing-badge">{{ exp.period }}</span>
                 </div>
                 <p class="text-light-gray mb-3">{{ exp.description }}</p>
+
+                <!-- Key Achievements -->
+                <div class="achievements mb-3" v-if="exp.achievements">
+                  <h6 class="text-amg-teal mb-2">
+                    <i class="fas fa-trophy me-2"></i>Key Achievements
+                  </h6>
+                  <ul class="text-light-gray mb-0">
+                    <li v-for="achievement in exp.achievements" :key="achievement" class="mb-1">
+                      {{ achievement }}
+                    </li>
+                  </ul>
+                </div>
+
                 <div class="skills-used">
                   <span
                     v-for="skill in exp.skills"

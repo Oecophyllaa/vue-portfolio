@@ -9,73 +9,39 @@ export default {
     const projects = [
       {
         id: 1,
-        title: 'E-Commerce Platform',
+        title: 'Boarding House Rent',
         description:
-          'Full-featured online store with admin panel, payment integration, and inventory management.',
-        image: 'https://placehold.co/350x200?text=E-Commerce',
+          'A web application for managing boarding house rentals, featuring tenant registration, online payments, room availability tracking, and automated billing.',
+        image: '/src/assets/projects/web-ngekos.png',
         category: 'web',
-        technologies: ['Laravel', 'Vue.js', 'MySQL', 'Stripe'],
+        technologies: ['Laravel', 'Filament', 'MySQL', 'Midtrans'],
         demo: '#',
-        github: '#',
-        year: '2023',
+        github: 'https://github.com/Oecophyllaa/ngekos',
+        year: '2024',
       },
       {
         id: 2,
-        title: 'Task Management App',
+        title: 'Office / Co-working Space Rent',
         description:
-          'Collaborative task management application with real-time updates and team features.',
-        image: 'https://placehold.co/350x200?text=Task+Manager',
+          'A web application for managing office and co-working space rentals, featuring booking management, tenant coordination, payment processing, and availability tracking.',
+        image: '/src/assets/projects/web-firstoffice.png',
         category: 'web',
-        technologies: ['React', 'Node.js', 'MongoDB', 'Socket.io'],
+        technologies: ['Laravel', 'React', 'TypeScript', 'REST API'],
         demo: '#',
-        github: '#',
-        year: '2023',
+        github: 'https://github.com/Oecophyllaa?tab=repositories&q=firstoffice',
+        year: '2024',
       },
       {
         id: 3,
-        title: 'Restaurant Mobile App',
+        title: 'News Portal Web',
         description:
-          'Mobile application for restaurant ordering with location tracking and payment system.',
-        image: 'https://placehold.co/350x200?text=Restaurant+App',
-        category: 'mobile',
-        technologies: ['React Native', 'Firebase', 'Stripe'],
-        demo: '#',
-        github: '#',
-        year: '2022',
-      },
-      {
-        id: 4,
-        title: 'RESTful API Service',
-        description:
-          'Scalable API service for managing user authentication and data with comprehensive documentation.',
-        image: 'https://placehold.co/350x200?text=API+Service',
-        category: 'api',
-        technologies: ['Laravel', 'JWT', 'Swagger', 'Docker'],
-        demo: '#',
-        github: '#',
-        year: '2023',
-      },
-      {
-        id: 5,
-        title: 'Portfolio Website',
-        description: 'Responsive portfolio website with modern design and smooth animations.',
-        image: 'https://placehold.co/350x200?text=Portfolio',
+          'A modern news portal web application that enables users to read, search, and manage news articles, featuring an intuitive interface, category filtering, and admin management tools.',
+        image: '/src/assets/projects/web-maga.png',
         category: 'web',
-        technologies: ['Vue.js', 'Bootstrap', 'SCSS'],
+        technologies: ['Laravel', 'Filament', 'MySQL', 'CMS'],
         demo: '#',
-        github: '#',
-        year: '2023',
-      },
-      {
-        id: 6,
-        title: 'Weather Mobile App',
-        description: 'Weather forecast application with location-based services and beautiful UI.',
-        image: 'https://placehold.co/350x200?text=Weather+App',
-        category: 'mobile',
-        technologies: ['Flutter', 'OpenWeather API', 'SQLite'],
-        demo: '#',
-        github: '#',
-        year: '2022',
+        github: 'https://github.com/Oecophyllaa/filament-portal-berita',
+        year: '2024',
       },
     ]
 
@@ -108,34 +74,36 @@ export default {
       <div class="row">
         <div class="col-12 mb-4">
           <div class="project-filters text-center">
-            <button
-              class="btn btn-outline-light me-2 mb-2 racing-filter"
-              :class="{ 'btn-amg-teal text-dark': activeFilter === 'all' }"
-              @click="filterProjects('all')"
-            >
-              <i class="fas fa-th me-1"></i>All
-            </button>
-            <button
-              class="btn btn-outline-light me-2 mb-2 racing-filter"
-              :class="{ 'btn-amg-teal text-dark': activeFilter === 'web' }"
-              @click="filterProjects('web')"
-            >
-              <i class="fas fa-globe me-1"></i>Web App
-            </button>
-            <button
-              class="btn btn-outline-light me-2 mb-2 racing-filter"
-              :class="{ 'btn-amg-teal text-dark': activeFilter === 'mobile' }"
-              @click="filterProjects('mobile')"
-            >
-              <i class="fas fa-mobile-alt me-1"></i>Mobile
-            </button>
-            <button
-              class="btn btn-outline-light me-2 mb-2 racing-filter"
-              :class="{ 'btn-amg-teal text-dark': activeFilter === 'api' }"
-              @click="filterProjects('api')"
-            >
-              <i class="fas fa-cogs me-1"></i>API
-            </button>
+            <div class="btn-group flex-wrap" role="group">
+              <button
+                class="btn btn-outline-light me-2 mb-2 racing-filter"
+                :class="{ 'btn-amg-teal text-dark': activeFilter === 'all' }"
+                @click="filterProjects('all')"
+              >
+                <i class="fas fa-th me-1"></i>All
+              </button>
+              <button
+                class="btn btn-outline-light me-2 mb-2 racing-filter"
+                :class="{ 'btn-amg-teal text-dark': activeFilter === 'web' }"
+                @click="filterProjects('web')"
+              >
+                <i class="fas fa-globe me-1"></i>Web App
+              </button>
+              <button
+                class="btn btn-outline-light me-2 mb-2 racing-filter"
+                :class="{ 'btn-amg-teal text-dark': activeFilter === 'mobile' }"
+                @click="filterProjects('mobile')"
+              >
+                <i class="fas fa-mobile-alt me-1"></i>Mobile
+              </button>
+              <button
+                class="btn btn-outline-light me-2 mb-2 racing-filter"
+                :class="{ 'btn-amg-teal text-dark': activeFilter === 'api' }"
+                @click="filterProjects('api')"
+              >
+                <i class="fas fa-cogs me-1"></i>API
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -167,7 +135,7 @@ export default {
             </div>
             <div class="project-content p-4">
               <h5 class="text-white mb-2">{{ project.title }}</h5>
-              <p class="text-light-gray mb-3">{{ project.description }}</p>
+              <p class="text-light-gray mb-3 project-description">{{ project.description }}</p>
               <div class="project-tech mb-3">
                 <span
                   v-for="tech in project.technologies"

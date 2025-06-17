@@ -5,6 +5,7 @@ export default {
     const skillCategories = [
       {
         name: 'Frontend Development',
+        icon: 'fas fa-palette',
         skills: [
           { name: 'HTML5', icon: 'fab fa-html5', color: '#E34F26' },
           { name: 'CSS3', icon: 'fab fa-css3-alt', color: '#1572B6' },
@@ -16,16 +17,19 @@ export default {
       },
       {
         name: 'Backend Development',
+        icon: 'fas fa-server',
         skills: [
           { name: 'PHP', icon: 'fab fa-php', color: '#777BB4' },
           { name: 'Laravel', icon: 'fab fa-laravel', color: '#FF2D20' },
           { name: 'Node.js', icon: 'fab fa-node-js', color: '#339933' },
           { name: 'MySQL', icon: 'fas fa-database', color: '#4479A1' },
+          { name: 'PostgreSQL', icon: 'fab fa-deskpro', color: '#336791' },
           { name: 'MongoDB', icon: 'fas fa-leaf', color: '#47A248' },
         ],
       },
       {
-        name: 'Tools & Others',
+        name: 'DevOps & Tools',
+        icon: 'fas fa-wrench',
         skills: [
           { name: 'Git', icon: 'fab fa-git-alt', color: '#F05032' },
           { name: 'GitHub', icon: 'fab fa-github', color: '#181717' },
@@ -48,7 +52,7 @@ export default {
       <div class="row">
         <div class="col-12 text-center mb-5">
           <h2 class="section-title text-white">
-            <i class="fas fa-tools me-3 text-amg-teal"></i>Skills & Technologies
+            <i class="fas fa-tools me-3 text-amg-teal"></i>Technical Skills & Technologies
           </h2>
         </div>
       </div>
@@ -74,7 +78,8 @@ export default {
                       :class="skill.icon + ' fa-2x mb-3 skill-icon'"
                       :style="{ color: skill.color }"
                     ></i>
-                    <h6 class="text-white mb-0">{{ skill.name }}</h6>
+                    <h6 class="text-white mb-2 skill-name">{{ skill.name }}</h6>
+                    <small class="text-light-gray skill-level">{{ skill.level }}</small>
                   </div>
                 </div>
               </div>
