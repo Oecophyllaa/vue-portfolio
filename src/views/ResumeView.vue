@@ -54,7 +54,7 @@ const loadPDF = async () => {
 
     // For demo purposes, we'll create a sample PDF URL
     // In real implementation, this would be the path to your actual resume PDF
-    const pdfUrl = '/src/assets/documents/Rangga_Raditya_Resume.pdf' // This should be your actual PDF file path
+    const pdfUrl = '/documents/Rangga_Raditya_Resume.pdf' // This should be your actual PDF file path
 
     // Try to load the PDF
     try {
