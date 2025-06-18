@@ -1,16 +1,19 @@
 <script>
 import { RouterView } from 'vue-router'
+import { Analytics } from '@vercel/analytics/vue'
 
 export default {
   name: 'App',
   components: {
     RouterView,
+    Analytics,
   },
 }
 </script>
 
-<!-- src/App.vue -->
 <template>
+  <Analytics />
+
   <div id="app">
     <RouterView />
   </div>
