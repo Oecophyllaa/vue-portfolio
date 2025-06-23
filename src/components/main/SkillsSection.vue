@@ -7,36 +7,40 @@ export default {
         name: 'Frontend Development',
         icon: 'fas fa-palette',
         skills: [
-          { name: 'HTML5', icon: 'fab fa-html5', color: '#E34F26' },
-          { name: 'CSS3', icon: 'fab fa-css3-alt', color: '#1572B6' },
-          { name: 'JavaScript', icon: 'fab fa-js-square', color: '#F7DF1E' },
-          { name: 'Bootstrap', icon: 'fab fa-bootstrap', color: '#7952B3' },
-          { name: 'Vue.js', icon: 'fab fa-vuejs', color: '#4FC08D' },
-          { name: 'React', icon: 'fab fa-react', color: '#61DAFB' },
+          { name: 'HTML5', icon: 'fab devicon-html5-plain colored' },
+          { name: 'CSS3', icon: 'fab devicon-css3-plain colored' },
+          { name: 'JavaScript', icon: 'fab devicon-javascript-plain colored' },
+          { name: 'Bootstrap', icon: 'fab devicon-bootstrap-plain colored' },
+          { name: 'Tailwind', icon: 'fab devicon-tailwindcss-original colored' },
+          { name: 'Vue.js', icon: 'fab devicon-vuejs-plain colored' },
+          { name: 'React', icon: 'fab devicon-react-original colored' },
+          { name: 'Nuxt.js', icon: 'fab devicon-nuxtjs-plain colored' },
         ],
       },
       {
         name: 'Backend Development',
         icon: 'fas fa-server',
         skills: [
-          { name: 'PHP', icon: 'fab fa-php', color: '#777BB4' },
-          { name: 'Laravel', icon: 'fab fa-laravel', color: '#FF2D20' },
-          { name: 'Node.js', icon: 'fab fa-node-js', color: '#339933' },
-          { name: 'MySQL', icon: 'fas fa-database', color: '#4479A1' },
-          { name: 'PostgreSQL', icon: 'fab fa-deskpro', color: '#336791' },
-          { name: 'MongoDB', icon: 'fas fa-leaf', color: '#47A248' },
+          { name: 'PHP', icon: 'fab devicon-php-plain colored' },
+          { name: 'Laravel', icon: 'fab devicon-laravel-original colored' },
+          { name: 'CodeIgniter', icon: 'fab devicon-codeigniter-plain colored' },
+          { name: 'Node.js', icon: 'fab devicon-nodejs-plain colored' },
+          { name: 'Adonis.js', icon: 'fab devicon-adonisjs-original colored' },
+          { name: 'MySQL', icon: 'fas devicon-mysql-original colored' },
+          { name: 'PostgreSQL', icon: 'fab devicon-postgresql-plain colored' },
+          { name: 'MongoDB', icon: 'fas devicon-mongodb-plain colored' },
         ],
       },
       {
         name: 'DevOps & Tools',
         icon: 'fas fa-wrench',
         skills: [
-          { name: 'Git', icon: 'fab fa-git-alt', color: '#F05032' },
-          { name: 'GitHub', icon: 'fab fa-github', color: '#181717' },
-          { name: 'VS Code', icon: 'fas fa-code', color: '#007ACC' },
-          { name: 'Figma', icon: 'fab fa-figma', color: '#F24E1E' },
-          { name: 'Docker', icon: 'fab fa-docker', color: '#2496ED' },
-          { name: 'Linux', icon: 'fab fa-linux', color: '#FCC624' },
+          { name: 'Git', icon: 'fab devicon-git-plain colored' },
+          { name: 'GitHub', icon: 'fab devicon-github-original colored' },
+          { name: 'Gitlab', icon: 'fab devicon-gitlab-plain colored' },
+          { name: 'VS Code', icon: 'fab devicon-vscode-plain colored' },
+          { name: 'Postman', icon: 'fab devicon-postman-plain colored' },
+          { name: 'Docker', icon: 'fab devicon-docker-plain colored' },
         ],
       },
     ]
@@ -74,10 +78,7 @@ export default {
                   :key="skill.name"
                 >
                   <div class="skill-card bg-dark-card p-3 rounded-3 text-center h-100 racing-skill">
-                    <i
-                      :class="skill.icon + ' fa-2x mb-3 skill-icon'"
-                      :style="{ color: skill.color }"
-                    ></i>
+                    <i :class="skill.icon + ' fa-2x mb-3 skill-icon'"></i>
                     <h6 class="text-white mb-2 skill-name">{{ skill.name }}</h6>
                     <small class="text-light-gray skill-level">{{ skill.level }}</small>
                   </div>

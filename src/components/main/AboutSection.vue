@@ -29,7 +29,7 @@ export default {
         <div class="col-lg-6">
           <div class="about-content slide-in-right">
             <h3 class="text-amg-teal mb-4">
-              <i class="fas fa-code me-2"></i>Passionate Developer & Tech Innovator
+              <i class="fas fa-code me-2"></i>Passionate Developer & Tech Educator
             </h3>
             <p class="text-light-gray mb-4">
               I'm a dedicated full-stack web developer with expertise in modern web technologies. My
