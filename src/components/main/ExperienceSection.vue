@@ -4,23 +4,7 @@ export default {
   setup() {
     const experiences = [
       {
-        position: 'Freelance Web Developer',
-        company: 'Self-Employed',
-        period: 'Jan 2023 - Present',
-        description:
-          'Developing custom web applications for various clients using modern technologies. Focus on creating responsive, user-friendly interfaces and robust backend systems.',
-        skills: ['Laravel', 'Vue.js', 'MySQL', 'Bootstrap', 'Git'],
-      },
-      {
-        position: 'Programming Teacher',
-        company: 'SMK Senopati Sedati',
-        period: 'Apr 2025 - May 2025',
-        description:
-          'Taught advanced SQL and MS Excel techniques, including complex queries, pivot tables, and dynamic charts for effective data management and analysis, by designing interactive digital learning modules and implementing IT tools for assessment.',
-        skills: ['Teaching', 'Database Design', 'MySQL', 'Ms Office'],
-      },
-      {
-        position: 'IT Support Officer',
+        position: 'IT Support',
         company: 'Brilliant International Education Plus',
         period: 'Oct 2024 - Feb 2025',
         description:
@@ -28,7 +12,7 @@ export default {
         skills: ['Technical Support', 'IT Services', 'Maintenance', 'Web Development'],
       },
       {
-        position: 'IT Support Intern',
+        position: 'Junior Web Developer Intern',
         company: 'Brilliant English Course',
         period: 'Aug 2024 - Dec 2024',
         description:
@@ -50,14 +34,6 @@ export default {
         description:
           'Led a dynamic team in developing RentDrive, a sophisticated car rental information system using Laravel and Bootstrap, integrating Midtrans for payments, designing robust API endpoints, and ensuring optimal performance through comprehensive Postman testing.',
         skills: ['Web Development', 'Laravel', 'Bootstrap', 'Payment Gateway', 'Rest API'],
-      },
-      {
-        position: 'Extracurricular Tutor',
-        company: 'SMK Senopati Sedati',
-        period: 'Oct 2022 - May 2023',
-        description:
-          'Guided and instructed students on foundational web programming concepts including HTML, CSS, JavaScript, and PHP, sharing practical coding tips that fostered their enthusiasm and growth in web development.',
-        skills: ['Teaching', 'HTML', 'CSS', 'Javascript', 'PHP'],
       },
       {
         position: 'PHP Web Developer Intern',

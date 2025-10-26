@@ -67,8 +67,8 @@ export default {
                 </div>
                 <div class="col-sm-6 mb-2">
                   <div class="expertise-item">
-                    <i class="fas fa-cloud text-amg-teal me-2"></i>
-                    <span class="text-light-gray">Cloud Deployment</span>
+                    <i class="fas fa-hammer text-amg-teal me-2"></i>
+                    <span class="text-light-gray">App Maintenance</span>
                   </div>
                 </div>
               </div>
@@ -80,7 +80,7 @@ export default {
                 <div class="col-sm-6 mb-3">
                   <div class="about-item racing-info">
                     <i class="fas fa-envelope text-amg-teal me-2"></i>
-                    <span class="text-light-gray">oecophylla@example.com</span>
+                    <span class="text-light-gray">hello.ranggaraditya@gmail.com</span>
                   </div>
                 </div>
                 <div class="col-sm-6 mb-3">

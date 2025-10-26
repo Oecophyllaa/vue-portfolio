@@ -51,11 +51,11 @@ export default {
               class="hero-stats d-flex justify-content-center justify-content-lg-start flex-wrap gap-3 mb-4"
             >
               <div class="stat-item text-center racing-stat">
-                <div class="h4 text-amg-teal mb-0 counter" data-target="2">0</div>
+                <div class="h4 text-amg-teal mb-0 counter" data-target="1">0</div>
                 <small class="text-light-gray">Years Experience</small>
               </div>
               <div class="stat-item text-center racing-stat">
-                <div class="h4 text-amg-teal mb-0 counter" data-target="15">0</div>
+                <div class="h4 text-amg-teal mb-0 counter" data-target="10">0</div>
                 <small class="text-light-gray">Projects Completed</small>
               </div>
               <div class="stat-item text-center racing-stat">

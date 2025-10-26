@@ -9,14 +9,14 @@ export default {
     const projects = [
       {
         id: 1,
-        title: 'Boarding House Rent',
+        title: 'Kampung Inggris Pare',
         description:
-          'A web application for managing boarding house rentals, featuring tenant registration, online payments, room availability tracking, and automated billing.',
-        image: '/projects/web-ngekos.png',
+          'A web app for Kampung Inggris Pare that handles member registration, profile management, course enrollment, and secure online payments.',
+        image: '/projects/inggrispare.png',
         category: 'web',
-        technologies: ['Laravel', 'Filament', 'MySQL', 'Midtrans'],
-        demo: '#',
-        github: 'https://github.com/Oecophyllaa/ngekos',
+        technologies: ['Laravel', 'Filament', 'MySQL', 'TailwindCSS'],
+        demo: 'https://inggrispare.com',
+        github: '#',
         year: '2024',
       },
       {
