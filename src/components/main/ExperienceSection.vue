@@ -4,9 +4,17 @@ export default {
   setup() {
     const experiences = [
       {
+        position: 'Freelance Trainer',
+        company: 'Flashcom Indonesia',
+        period: 'Nov 2025 - Present',
+        description:
+          'As a Freelance Trainer at Flashcom Indonesia, responsible for teaching PHP and Laravel from beginner to intermediate levels. Designed curricula and practical materials (CRUD, routing, Eloquent, authentication, middleware, service container), facilitated hands-on workshops, guided participants through real projects, conducted competency evaluations, and provided mentoring and troubleshooting to improve programming skills and job readiness.',
+        skills: ['PHP', 'Laravel', 'Eloquent ORM', 'Teaching & Curriculum Design'],
+      },
+      {
         position: 'IT Support',
         company: 'Brilliant International Education Plus',
-        period: 'Oct 2024 - Feb 2025',
+        period: 'Dec 2024 - Feb 2025',
         description:
           'Spearheaded significant improvements in IT systems and user support, notably reducing registration website bugs by 40% and downtime by 50%, while effectively resolving over 150 monthly technical support requests and contributing to enhanced data security for over 500 users.',
         skills: ['Technical Support', 'IT Services', 'Maintenance', 'Web Development'],
