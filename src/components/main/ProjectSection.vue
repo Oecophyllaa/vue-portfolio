@@ -23,7 +23,7 @@ export default {
         id: 2,
         title: 'MyEnviro',
         description:
-          'A web application for managing environmental monitoring, including air quality monitoring, data analysis, and reporting.',
+          'A web application for outsourcing environmental services including task and document management. This is a rest api that will be used by mobile applications.',
         image: '/projects/myenviro-web.png',
         category: 'api',
         technologies: ['Laravel', 'REST API'],
