@@ -37,7 +37,7 @@ export default {
               creating scalable, efficient, and user-centric digital solutions.
             </p>
             <p class="text-light-gray mb-4">
-              Specializing in Laravel backend development and Vue.js frontend frameworks, I focus on
+              Specializing in Laravel backend development and REST API development, I focus on
               building robust applications with clean architecture, optimal performance, and
               maintainable code. I stay current with industry best practices and emerging
               technologies.
@@ -55,8 +55,8 @@ export default {
                 </div>
                 <div class="col-sm-6 mb-2">
                   <div class="expertise-item">
-                    <i class="fab fa-vuejs text-amg-teal me-2"></i>
-                    <span class="text-light-gray">Vue.js Applications</span>
+                    <i class="fas fa-wifi text-amg-teal me-2"></i>
+                    <span class="text-light-gray">RESTful APIs</span>
                   </div>
                 </div>
                 <div class="col-sm-6 mb-2">
@@ -86,7 +86,7 @@ export default {
                 <div class="col-sm-6 mb-3">
                   <div class="about-item racing-info">
                     <i class="fas fa-globe text-amg-teal me-2"></i>
-                    <span class="text-light-gray">oecophylla.my.id</span>
+                    <span class="text-light-gray">oecophylla.space</span>
                   </div>
                 </div>
               </div>

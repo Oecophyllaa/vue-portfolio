@@ -54,7 +54,7 @@ const loadPDF = async () => {
 
     // For demo purposes, we'll create a sample PDF URL
     // In real implementation, this would be the path to your actual resume PDF
-    const pdfUrl = '/documents/Rangga_Raditya_Resume.pdf' // This should be your actual PDF file path
+    const pdfUrl = '/documents/EN_Rangga_Raditya_Resume.pdf' // This should be your actual PDF file path
 
     // Try to load the PDF
     try {
@@ -252,7 +252,7 @@ const zoomOut = async () => {
 const downloadPDF = () => {
   // Create a download link for the PDF
   const link = document.createElement('a')
-  link.href = '/src/assets/documents/Rangga_Raditya_Resume.pdf' // Your actual PDF file path
+  link.href = '/src/assets/documents/EN_Rangga_Raditya_Resume.pdf' // Your actual PDF file path
   link.download = 'Rangga_Raditya_Nugroho_Resume.pdf'
   link.click()
 }
@@ -296,7 +296,7 @@ onMounted(async () => {
             <h2 class="text-white">
               <i class="fas fa-file-pdf me-3 text-amg-teal"></i>Resume Preview
             </h2>
-            <p class="text-light-gray">Rangga Raditya Nugroho - Fullstack Web Developer</p>
+            <p class="text-light-gray">Rangga Raditya Nugroho - Web Developer</p>
           </div>
         </div>
 
@@ -378,13 +378,13 @@ onMounted(async () => {
                 <div class="col-md-6 mb-3">
                   <div class="info-item">
                     <i class="fas fa-briefcase text-amg-teal me-2"></i>
-                    <span class="text-light-gray">Position: Fullstack Web Developer</span>
+                    <span class="text-light-gray">Position: Web Developer</span>
                   </div>
                 </div>
                 <div class="col-md-6 mb-3">
                   <div class="info-item">
                     <i class="fas fa-calendar text-amg-teal me-2"></i>
-                    <span class="text-light-gray">Last Updated: January 2025</span>
+                    <span class="text-light-gray">Last Updated: April 2026</span>
                   </div>
                 </div>
                 <div class="col-md-6 mb-3">

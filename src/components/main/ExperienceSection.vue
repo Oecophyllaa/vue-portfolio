@@ -4,9 +4,17 @@ export default {
   setup() {
     const experiences = [
       {
+        position: 'Web Developer',
+        company: 'PT Xeno Persada Teknologi',
+        period: 'Nov 2025 - Present',
+        description:
+          "Ensured high system stability for the MyEnviro project by consistently meeting SLA targets, resolving critical issues within 24 hours, and achieving a Zero Recurring Bug milestone through comprehensive Root Cause Analysis (RCA). Additionally, drove the ARHUB project's success by delivering 80% of planned tasks on time with zero critical bugs, while strengthening deployment integrity through rigorous self-reviews, database verifications, and structured checklists for seamless post-launch stability.",
+        skills: ['Laravel', 'API Development', 'Problem Solving', 'Web Development'],
+      },
+      {
         position: 'Freelance Trainer',
         company: 'Flashcom Indonesia',
-        period: 'Nov 2025 - Present',
+        period: 'Nov 2025 - Jan 2026',
         description:
           'As a Freelance Trainer at Flashcom Indonesia, responsible for teaching PHP and Laravel from beginner to intermediate levels. Designed curricula and practical materials (CRUD, routing, Eloquent, authentication, middleware, service container), facilitated hands-on workshops, guided participants through real projects, conducted competency evaluations, and provided mentoring and troubleshooting to improve programming skills and job readiness.',
         skills: ['PHP', 'Laravel', 'Eloquent ORM', 'Teaching & Curriculum Design'],
@@ -20,7 +28,7 @@ export default {
         skills: ['Technical Support', 'IT Services', 'Maintenance', 'Web Development'],
       },
       {
-        position: 'Junior Web Developer Intern',
+        position: 'Junior Web Developer',
         company: 'Brilliant English Course',
         period: 'Aug 2024 - Dec 2024',
         description:
@@ -28,28 +36,20 @@ export default {
         skills: ['Web Development', 'Maintenance', 'Bug Fix'],
       },
       {
-        position: 'Full Stack Web Developer Intern',
-        company: 'ADS Digital Partner',
+        position: 'Full Stack Web Developer',
+        company: 'PT Adma Digital Solusi',
         period: 'Feb 2024 - Jun 2024',
         description:
           'Collaborated on the development, deployment, and maintenance of the Medifirst web application, utilizing the Laravel framework with Eloquent ORM and performing essential bug fixes.',
         skills: ['Web Development', 'Laravel', 'Team Works', 'Problem Solving'],
       },
       {
-        position: 'Full Stack Web Developer Intern',
-        company: 'PT. Hendevane Indonesia',
+        position: 'Full Stack Web Developer',
+        company: 'PT Hendevane Indonesia',
         period: 'Aug 2023 - Dec 2023',
         description:
           'Led a dynamic team in developing RentDrive, a sophisticated car rental information system using Laravel and Bootstrap, integrating Midtrans for payments, designing robust API endpoints, and ensuring optimal performance through comprehensive Postman testing.',
         skills: ['Web Development', 'Laravel', 'Bootstrap', 'Payment Gateway', 'Rest API'],
-      },
-      {
-        position: 'PHP Web Developer Intern',
-        company: 'PT. Profio Teknova Indonesia',
-        period: 'Jan 2021 - Mar 2021',
-        description:
-          'As part of my internship experience, I was assigned tasks to create a simple landing page using Bootstrap and Laravel. Additionally, I was entrusted with copywriting tasks for articles on the blog page of simara.id.',
-        skills: ['PHP', 'Web Development', 'Laravel', 'Copywriting'],
       },
     ]
 
